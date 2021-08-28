@@ -7,9 +7,9 @@
 ## Projeto
 1) Adição de código no `pom.xml`:
 ```
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
+<properties>
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+</properties>
 ```
 
 ## Java EE
