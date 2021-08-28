@@ -14,10 +14,16 @@
 É o escopo padrão caso você não informe um, ele tem o mesmo comportamento da sessão web (HttpSession), o estado do ManagedBean é mantido até o fim da sessão do usuário. É preciso ter muito cuidado ao utilizar o SessionScoped, pois ele será mantido em memória até que o usuário termine a sessão.
 
 ## @ConversationScoped
-Só pode ser usado com CDI 
+Só pode ser usado com CDI e controle é feito manualmente, ele funciona basicamente como uma transação de banco de dados. São necessários comandos para iniciar e para finalizar o seu ciclo de vida. O ManagedBean do tipo ConversationScoped tem apenas dois estados, transient e long running. O estado será transient antes do início e após o fim da conversação.
 
 ## @ApplicationScoped
 Funciona como um Singleton, ou seja, mantém apenas uma única instância na memória em toda a aplicação, todo usuário tem acesso ao mesmo ManagedBean, logo não é aconselhável guardar informações de usuário com ApplicationScoped. 
+
+## Dependent
+Só pode ser usado com CDI, este escopo não possui um comportamento próprio, ele vai herdar o comportamento do ManagedBean em que for injetado.
+
+## NoneScoped
+Dura apenas uma chamada da EL e depois é eliminado da memória. É um escopo extremamente curto, e será usado em tarefas muito específicas.  
 
 ## Java EE
 É uma plataforma padrão para desenvolver aplicações Java de grande porte e/ou para a internet.
