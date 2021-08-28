@@ -37,3 +37,28 @@ Dura apenas uma chamada da EL e depois é eliminado da memória. É um escopo ex
 
 ## JSF
 JavaServer Faces (JSF) é um web framework MVC que simplifica a construção de User Interface (UI) baseadas em componentes para aplicações web. Principais frameworks: PrimeFaces, RichFaces, ICEfaces.
+
+## Quiz
+Como é a estrutura de uma EL (expression language)? <br>
+#{classe.metodo}
+
+Quais das tags abaixo é para criar um combo box? <br>
+<h:selectOneMenu></ h:selectOneMenu>
+
+Qual anotação de escopo do JSF 2 mantém o Managed Bean enquanto a aplicação permanece na mesma página? <br>
+@ViewScoped
+
+O que é CDI? <br>
+Injeção de Dependência e Contextos.
+
+Qual annotation é necessária para realizar a injeção de dependência? <br>
+@Inject
+
+O framework JavaServer Faces (JSF) é utilizado no desenvolvimento de aplicações web que utiliza o design pattern MVC. O que é o MVC? <br>
+Model, view, controller.
+
+Para que seja obtida uma instância de Pessoa e chamado o método getNome a partir dessa instância, qual é a forma correta? <br>
+#{pessoa.nome}
+
+Você está responsável pela criação de um pequeno formulário para entrada de login e senha de acesso de usuário. O nome do usuário pode ficar legível, porém a senha não. Os elementos para criação do campo de usuário e senha são, respectivamente: <br>
+<h:inputText/> e <h:inputSecret/>
