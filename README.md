@@ -39,26 +39,26 @@ Dura apenas uma chamada da EL e depois é eliminado da memória. É um escopo ex
 JavaServer Faces (JSF) é um web framework MVC que simplifica a construção de User Interface (UI) baseadas em componentes para aplicações web. Principais frameworks: PrimeFaces, RichFaces, ICEfaces.
 
 ## Quiz
-Como é a estrutura de uma EL (expression language)? <br>
+### Como é a estrutura de uma EL (expression language)? 
 #{classe.metodo}
 
-Quais das tags abaixo é para criar um combo box? <br>
+### Quais das tags abaixo é para criar um combo box? 
 <h:selectOneMenu></ h:selectOneMenu>
 
-Qual anotação de escopo do JSF 2 mantém o Managed Bean enquanto a aplicação permanece na mesma página? <br>
+### Qual anotação de escopo do JSF 2 mantém o Managed Bean enquanto a aplicação permanece na mesma página? 
 @ViewScoped
 
-O que é CDI? <br>
+### O que é CDI? 
 Injeção de Dependência e Contextos.
 
-Qual annotation é necessária para realizar a injeção de dependência? <br>
+### Qual annotation é necessária para realizar a injeção de dependência? 
 @Inject
 
-O framework JavaServer Faces (JSF) é utilizado no desenvolvimento de aplicações web que utiliza o design pattern MVC. O que é o MVC? <br>
+### O framework JavaServer Faces (JSF) é utilizado no desenvolvimento de aplicações web que utiliza o design pattern MVC. O que é o MVC? 
 Model, view, controller.
 
-Para que seja obtida uma instância de Pessoa e chamado o método getNome a partir dessa instância, qual é a forma correta? <br>
+### Para que seja obtida uma instância de Pessoa e chamado o método getNome a partir dessa instância, qual é a forma correta? 
 #{pessoa.nome}
 
-Você está responsável pela criação de um pequeno formulário para entrada de login e senha de acesso de usuário. O nome do usuário pode ficar legível, porém a senha não. Os elementos para criação do campo de usuário e senha são, respectivamente: <br>
+### Você está responsável pela criação de um pequeno formulário para entrada de login e senha de acesso de usuário. O nome do usuário pode ficar legível, porém a senha não. Os elementos para criação do campo de usuário e senha são, respectivamente: 
 <h:inputText/> e <h:inputSecret/>
