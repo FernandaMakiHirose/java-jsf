@@ -12,6 +12,25 @@
 </properties>
 ```
 
+2) O outro código adicionado no `pom.xml`:
+```
+<build>
+	<finalName>${project.artifactId}</finalName>
+	<pluginManagement>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</pluginManagement>
+</build>
+```
+
 ## Java EE
 É uma plataforma padrão para desenvolver aplicações Java de grande porte e/ou para a internet.
 
