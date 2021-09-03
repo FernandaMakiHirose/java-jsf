@@ -4,6 +4,9 @@
 - IDE
 - Entendimento em tecnologias como HTML, CSS, AJAX, etc
 
+## Licença
+Distribuido sob a licença MIT License. Veja `LICENSE` para mais informações.
+
 ## @RequestScoped
 É o escopo padrão caso você não informe um, ele funciona como um simples HTTP request, é descartado ao fim de cada requisição, o ManagedBean não manterá seu estado entre as solicitações/requisições HTTP que o usuário fizer. A cada requisição uma nova instância do ManagedBean será criada, usada e descartada, dessa maneira não há compartilhamento das informações do ManagedBean entre as requisições. 
 
