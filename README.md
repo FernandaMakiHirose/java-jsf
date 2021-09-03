@@ -1,5 +1,5 @@
 # Introdução a JSF para aplicação web
-## Pré-requisitos
+## Requisitos
 - Entendimento básico da linguagem de programação em Java
 - IDE
 - Entendimento em tecnologias como HTML, CSS, AJAX, etc
@@ -62,8 +62,3 @@ Model, view, controller.
 
 ### Você está responsável pela criação de um pequeno formulário para entrada de login e senha de acesso de usuário. O nome do usuário pode ficar legível, porém a senha não. Os elementos para criação do campo de usuário e senha são, respectivamente: 
 <h:inputText/> e <h:inputSecret/>
-
-## Sobre a Autora
-Oi, eu sou a Fernanda! Estou aqui para contribuir com meu conhecimento e espero poder ajudar no desenvolvimento profissional de cada um de vocês.
-
-[![Linkedin Badge](https://img.shields.io/badge/-Fernanda_Maki_Hirose-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fernanda-maki-hirose-801117208/)](https://www.linkedin.com/in/fernanda-maki-hirose-801117208/)  [![Gmail Badge](https://img.shields.io/badge/-femahi2020@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:femahi2020@gmail.com)](mailto:femahi2020@gmail.com)
